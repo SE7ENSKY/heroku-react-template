@@ -17,6 +17,7 @@ app.get('/*', function (req, res, next) {
 });
 
 app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public/assets'));
 
 app.use((req, res) => {
 	res.sendFile(path.join(__dirname + '/public/index.html'));
