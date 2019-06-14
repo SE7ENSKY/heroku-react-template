@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"description": "Heroku server for React apps, based on ExpressJS",
 	"engines": {
-		"node": "^8.9.1"
+		"node": "^10"
 	},
 	"scripts": {
 		"start": "node index.js",
